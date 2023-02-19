@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Gilroy Semibold';
+}
+
+.header_wrp {
+    height: 120px;
+    display: flex;
+    max-width: 1170px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 45px;
+}
+
+.first_page {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav_links {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 36px;
+}
+
+.nav_link {
+    font-family: 'Gilroy SemiBold';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+ :hover.nav_link {
+    color: #F25822;
+}
+
+.promo_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 260px;
+}
+
+.promo_text {
+    max-width: 522px;
+}
+
+.main_text {
+    font-family: 'Gilroy';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin: 0, 0, 17;
+}
+
+.txt {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    padding-bottom: 16px;
+}
+
+.partner_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    mask-position: 96px;
+}
+
+.promo_btns {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.btn_start {
+    font-family: 'Gilroy Semibold';
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: 0px;
+    cursor: pointer;
+}
+
+:hover.btn_start {
+    box-shadow: 16px 12px 8px rgba(242, 88, 34, 0.2);
+    transition: all 500ms ease;
+    transform: skew(-10deg);
+}
+
+.btn_watch {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Gilroy Semibold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    text-decoration: none;
+}
